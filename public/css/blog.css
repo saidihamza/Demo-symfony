@@ -1,0 +1,50 @@
+/* public/css/blog.css */
+
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.post h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    text-decoration: underline;
+}
+
+.post-metadata {
+    margin-bottom: 10px;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+.pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pagination li.active span {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.pagination li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination li a:hover {
+    background-color: #337ab7;
+    color: #fff;
+    border-color: #337ab7;
+}

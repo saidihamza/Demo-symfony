@@ -1,0 +1,18 @@
+/* public/css/styles.css */
+
+/* Add your custom styles here */
+body {
+    background-image: url('../images/Blog-.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Add more styles as needed */

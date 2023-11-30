@@ -9,6 +9,11 @@
         <language>{{ app.request.locale }}</language>
 
         {% for post in paginator.results %}
+                 <!-- ... other head elements ... -->
+        <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
             <item>
                 <title>{{ post.title }}</title>
                 <description>{{ post.summary }}</description>
